@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> 
+        </title>
+    </head>
+    <body>
+        <p><b>Firstname:</b> {{fname}} </p>
+        <p><b>Lastname:</b> {{lname}} </p>
+        <p><b>Age:</b>{{age}} </p>
+        <P><b>Motto:</b> {{motto}} </p>
+        <p><b>Student Number:</b> {{snumber}} </p>
+        <p><b> info: </b> {{aboutme}} </p>
+        <p><b> info Length: </b> {{aboutme|length}} characters long </p>
+        <p><b> info in Capital First Letter: </b> {{aboutme|title}}  </p>
+        <p><b> First 10 words in Motto : </b>{{aboutme|truncatewords:10}} </p>
+        <p><b> First 5 words in Motto with first words in capital : </b> {{aboutme|truncatewords:5|title}}
+    </body>
+    </html>
